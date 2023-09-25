@@ -4,9 +4,7 @@ The [API Commandline Tool](https://github.com/Appdynamics/api-commandline-tool) 
 
 ACT is completely bash based, so you don't need to install or compile anything, just download and run it!
 
-If you want to see some examples what ACT can do, before installing it, look into the list of [available commands](USAGE.md) and [available recipes](RECIPES.md)
-
-As a byproduct the tool generates a [postman](https://www.getpostman.com/) compatible [collection of API calls](postman-collection.json). The integration is described at [POSTMAN.md](POSTMAN.md)
+As a byproduct the tool generates a [postman](https://www.getpostman.com/) compatible [collection of API calls](postman/postman-collection.json). The integration is described at [POSTMAN.md](postman/POSTMAN.md)
 
 ## Installation
 
@@ -26,12 +24,7 @@ To update your configuration, you can either edit this file or you can re-run th
 act.sh config -f
 ```
 
-If you want to work with multiple controllers, you can use [environments](USAGE.md#environment)
-
-
 ## Usage
-
-`act.sh` integrates different commands to interact with your AppDynamics controller. See [USAGE.md](USAGE.md) for a full list of commands or call `act.sh help` from the command line.
 
 A simple work flow example is listing, exporting and deleting a dashboard:
 
